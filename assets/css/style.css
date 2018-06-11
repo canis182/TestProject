@@ -1,0 +1,687 @@
+*, body, video{
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.menu{
+    display: none;
+	max-width: 120px;
+	margin: 10px auto;
+	color: #00e0d0;
+	text-align: center;
+	width: 100%;
+	padding: 5px 6px;
+    border: 2px solid #00e0d0;
+    text-decoration: none;
+}
+.nav-button a:hover{
+    color: #0cc5bc;
+    text-decoration: none;
+}
+.nav-item a{
+    font-family: Myriad Pro, sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    display: block;
+}
+.home a{
+    font-family: Myriad Pro, sans-serif;
+    font-size: 13px;
+    color: #0cc5bc;
+    display: block;
+}
+.menu_media{
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url("../img/overlay ( don't delete ).png");
+    right: -285px;
+    height: 400px;
+    position: fixed;
+    width: 285px;
+    z-index: 1;
+    opacity: .95;
+}
+.background1{
+    margin: 20px 0 0 0;
+    display: none;
+}
+.menu_media  ul{
+    border-top: 1px solid #555;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu_media li{
+    border-bottom: 1px solid #555;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+}
+.menu_media li:hover {
+    cursor: pointer;
+    background-color: rgb(140,130,190);
+}
+.menu_media a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.icon-close{
+    cursor: pointer;
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+.icon-menu{
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.icon-menu img{
+    margin-right: 5px;
+}
+.first-page{
+    height: 750px;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url("../img/overlay ( don't delete ).png");
+    text-align: center;
+}
+.nav-img{
+    height: 50px;
+    width: 130px;
+    background-image: url("../img/tajam.png");
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.nav-img, .nav-button{
+    margin: 15px 0 0 0;
+}
+.sliders{
+    margin: 85px 0 0 0;
+    height: 400px;
+}
+.slide h1{
+   margin: 100px 270px 0 270px; 
+   font-family: Myriad Pro, sans-serif;
+   font-size: 32px;
+   color: #ffffff;
+}
+.slick-dots li button::before{
+    color: #00e0d0;
+    opacity: 1;
+}
+.slide p{
+    margin: 30px 102px 80px 102px;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+ }
+.line{
+    margin: 25px auto;
+    height: 1px;
+    width: 60px;
+    background: #00e0d0;
+ }
+.slide {
+    text-align: center;
+    margin: 0 0 10px 0;
+    height: 420px;
+    width: 100%;
+ }
+.slide a{
+    padding: 15px 17px;
+    border: 1px solid #00e0d0;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 16px;
+    color: #00e0d0;
+    text-align: center;
+    text-decoration: none;
+}
+.slick-dots li button::before{
+    color: #00e0d0;
+    opacity: 1;
+}
+.stiry-img{
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url("../img/Replace with your logo.png");
+    margin: 100px auto;
+    height: 230px;
+    width: 235px;
+}
+.story-content h2{
+    margin: 100px 0 20px 0; 
+    font-family: Myriad Pro, sans-serif;
+    font-size: 32px;
+    color: #413d4b;
+}
+.story-content p{
+    margin: 30px 0; 
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #413d4b;
+}
+.story-content a{
+    padding: 15px 17px;
+    border: 1px solid #00e0d0;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 16px;
+    color: #00e0d0;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s;
+}
+.story-content a:hover {
+	box-shadow: 4px 4px 20px 0px #c1bed1;
+}
+.video{
+    height: 500px;
+    width: 100%;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url("../img/overlayVideo.png");
+}
+.video-link{
+    top: 30%;
+}
+.link-img{
+    height: 150px;
+    width: 160px;
+    background-image: url("../img/play.png");
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+    margin: auto;
+}
+.expertise-name{
+    text-align: center;
+}
+.expertise-name h2{
+    margin: 60px auto 0 auto;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 22px;
+    color: #75737b;
+}
+.expertise-name p{
+    margin: 18px auto 0 auto;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #636268;
+}
+.expertise-line{
+    margin: 20px auto;
+    height: 1px;
+    width: 50px;
+    background: #636268;
+}
+.advantages {
+    text-align: center;
+	padding: 10px 0;
+}
+.advantages-item-1-img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-image: url("../img/PUT YOUR ICON HERE.png");
+}
+.advantages-item-2-img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-image: url("../img/phone1.png");
+}
+.advantages-item-3-img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-image: url("../img/brang.png");
+}
+.advantages-item-4-img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-image: url("../img/optim.png");
+}
+.advantages-item-5-img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-image: url("../img/phone.png");
+}
+.advantages-item-6-img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-image: url("../img/love.png");
+}
+.advantages-item-1, .advantages-item-2, .advantages-item-3, .advantages-item-4, .advantages-item-5, .advantages-item-6 {
+    height: 200px;
+    width: 250px;
+    padding: 20px 0;
+    transition: all .5s;
+    margin: 0px auto 20px auto;
+}
+.advantages-item-1:hover {
+	box-shadow: -4px -4px 20px 0px #c1bed1;
+}
+.advantages-item-2:hover {
+	box-shadow: 0px -4px 20px 0px #c1bed1;
+}
+.advantages-item-3:hover {
+	box-shadow: 4px -4px 20px 0px #c1bed1;
+}
+.advantages-item-4:hover {
+	box-shadow: -5px 8px 20px 0px #c1bed1;
+}
+.advantages-item-5:hover {
+	box-shadow: 0px 8px 20px 0px #c1bed1;
+}
+.advantages-item-6:hover {
+	box-shadow: 5px 8px 20px 0px #c1bed1;
+}
+.advantages-item-1 img, .advantages-item-2 img, .advantages-item-3 img, 
+.advantages-item-4 img, .advantages-item-5 img,.advantages-item-6 img  {
+	display: block;
+	margin: 0 auto;
+}
+.advantages-item-1 h3, .advantages-item-2 h3, .advantages-item-3 h3, 
+.advantages-item-4 h3, .advantages-item-5 h3, .advantages-item-6 h3 {
+	margin: 20px 0;
+    text-align: center;
+    color: #413d4b;
+    font-size: 14px;
+    font-family: Myriad Pro, sans-serif;
+}
+.advantages-item-1 p, .advantages-item-2 p, .advantages-item-3 p, 
+.advantages-item-4 p, .advantages-item-5 p, .advantages-item-6 p {
+	text-align: center;
+    margin: 0;
+    color: #666666;
+    font-size: 14px;
+    font-family: Myriad Pro, sans-serif;
+}
+.team {
+	padding: 50px 0;
+    text-align: center;
+    height: 770px;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url("../img/overlay ( don't delete ).png");
+}
+.our-team h2{
+    margin: 60px 0 0 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Myriad Pro, sans-serif;
+}
+.our-team p{
+    margin: 14px 0 0 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Myriad Pro, sans-serif;
+}
+.team-line{
+    margin: 30px auto 45px auto ;
+    height: 2px;
+    width: 50px;
+    background: #655c80;
+}
+.team-content{
+    width: 222px;
+    height: 300px;
+    margin: 0px auto;
+}
+.team-content-img-1, .team-content-img-2, .team-content-img-3, .team-content-img-4{
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    max-width: 220px;
+    max-height: 230px;
+    height: 100%;
+    width: 100%;
+}
+.team-content-img-1{
+    background-image: url("../img/Sara.jpg");
+}
+.team-content-img-2{
+    background-image: url("../img/Dak.jpg");
+}
+.team-content-img-3{
+    background-image: url("../img/Julia.jpg");
+}
+.team-content-img-4{
+    background-image: url("../img/Pet.jpg");
+}
+.team-info{
+    border: 1px solid #ffffff;
+    width: 220px;
+
+}
+.team-info h4{
+    margin: 5px 0 0 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Myriad Pro, sans-serif;
+}
+.team-info p{
+    margin: 5px 0 0 0;
+    text-align: center;
+    color: #b2b1bb;
+    font-size: 14px;
+    font-family: Myriad Pro, sans-serif;
+}
+.dream-team p{
+    margin: 55px 0 30px 0;
+    text-align: center;
+    color: #d6d5db;
+    font-size: 14px;
+    font-family: Myriad Pro, sans-serif;
+}
+.hiring a{
+    margin: 0 0 70px 0;
+    padding: 15px 17px;
+    border: 1px solid #00e0d0;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 16px;
+    color: #00e0d0;
+    text-align: center;
+    text-decoration: none;  
+}
+.media-body p{
+    margin: 0 50px 0x 50px;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #5a5763;
+}
+.work-button a{
+    text-decoration: none;
+}
+.work-button p{
+    margin: 70px 0 0 0;
+    text-align: center;
+    color: #413d4b;
+    font-size: 14px;
+    font-family: Myriad Pro, sans-serif;
+}
+.work-name h2{
+    margin: 70px 0 70px 0;
+    text-align: center;
+    color: #413d4b;
+    font-size: 22px;
+    font-family: Myriad Pro, sans-serif; 
+}
+.work-button img{
+    margin: 0 0 2px 10px;
+    height: 12px;
+    width: 8px;
+}
+.other-works{
+    margin: 0 0 85px 0;
+}
+.load{
+    text-align: center;
+}
+.load a{
+    padding: 15px 17px;
+    border: 1px solid #00e0d0;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 16px;
+    color: #00e0d0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #00e0d0;
+    text-decoration: none;
+}
+.review{
+    margin: 80px 0 0 0;
+    height: 500px;
+    width: 100%;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url("../img/overlay3 ( don't delete ).png");
+}
+.works-sliders{
+    margin: 60px auto 0 auto;
+    height: 400px;
+    width: 700px;
+    text-align: center;
+}
+.works-slide h1{
+   margin: 0 auto; 
+   font-family: Myriad Pro, sans-serif;
+   font-size: 100px;
+   color: #ffffff;
+}
+.works-slide p{
+    margin: 0 50px 0x 50px;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+ }
+ .works-slide h5{
+    margin: 10px auto; 
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+ }
+ .works-slide h6{
+    margin: 0 auto 10px auto; 
+    font-family: Myriad Pro, sans-serif;
+    font-size: 13px;
+    color: #bfbcc9;
+ }
+.works-slide img{
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+}
+.email-text h2{
+    padding: 70px 0 0 30px;
+    color: #413d4b;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 22px;
+}
+.brands-icon{
+    height: 600px;
+}
+.Zara, .NYL, .Ck, .Converse, .Levis, .Mango, .Gucci, .NIKE, .Puma, .Billabong{
+    margin: 20px 5px;
+    height: 80px;
+    width: 165px;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.Zara{
+    background-image: url("../img/Zara_Logo.svg.png");
+}
+.NYL{
+    background-image: url("../img/1280px-Barneys_New_York_Logo.svg.png");
+}
+.Ck{
+    background-image: url("../img/Calvin_klein_logo.svg.png");
+}
+.Converse{
+    background-image: url("../img/Converse_logo.svg.png");
+}
+.Levis{
+    background-image: url("../img/1280px-Levi's_logo.svg.png");
+}
+.Mango{
+    background-image: url("../img/Logo_of_Mango_(new).svg.png");
+}
+.Gucci{
+    background-image: url("../img/1280px-Gucci_Logo.svg.png");
+}
+.NIKE{
+    background-image: url("../img/1280px-Logo_NIKE.svg.png");
+}
+.Puma{
+    background-image: url("../img/Puma_Logo.svg.png");
+}
+.Billabong{
+    background-image: url("../img/Billabong.svg.png");
+}
+.contact-us {
+	padding: 50px 0;
+    background-color: #f5f5f5;
+}
+.contact-us__form {
+	background-color: #ffffff;
+	padding: 20px 30px;
+}
+.contact-us__form input[type="text"], 
+.contact-us__form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border: 1px solid #e5e5e5;
+	margin: 10px 0;
+}
+.contact-us__form input[type="submit"] {
+	display: block;
+	max-width: 200px;
+	margin: 10px 0;
+	color: #00e0d0;
+	background-color: #ffffff;
+	text-align: center;
+	width: 100%;
+	padding: 10px 15px;
+    border: 2px solid #00e0d0;
+    transition: all .5s;
+}
+.contact-us__form input[type="submit"]:hover {
+	box-shadow: 4px 4px 20px 0px #c1bed1;
+}
+
+.happy-client h2{
+    padding: 70px 0 0 30px;
+    color: #413d4b;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 22px;
+}
+.brands-icon {
+    margin: 0 0 115px 0;
+}
+.footer{
+    margin: 80px 0 0 0;
+    height: 900px;
+    width: 100%;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url("../img/footer.png");
+}
+#map {
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+    box-shadow: 12px 7px 13px 0px #0000008a;;
+}
+.maps h2{
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    color: #e0dfe4;
+    text-shadow: 1px 1px 2px #000000;
+}
+.left-block{
+    margin: 70px auto;
+}
+.center-block{
+    margin: 60px auto;
+}
+.left-block img{
+    height: 50px;
+    width: 150px;
+}
+.left-block p{
+    margin: 25px 0 50px 0;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #e0dfe4;
+}
+.left-block a{
+    padding: 15px 15px;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.center-block h2{
+    margin: 25px 0 40px 0;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 15px;
+    color: #e0dfe4;
+}
+.center-block h5{
+    margin: 25px 0 20px 0;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #e0dfe4;
+}
+.right-block-text{
+    margin: 85px 0 20px 0;
+}
+.right-block-text h2{
+    padding: 0 15px 10px 15px ;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 15px;
+    color: #e0dfe4;
+}
+.right-block-subscribes input[type="text"]{
+   height: 40px;
+}
+.subscribes img{
+    margin: 11px auto 15px auto;
+    height: 40px;
+    width: 55px;
+}
+.site-img a:first-child{
+    padding: 0 0 0 15px ;
+}
+.Copyright h2{
+    padding: 0 0 0 15px ;
+    margin: 40px auto;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 14px;
+    color: #e0dfe4;
+}
+.other-works{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.photo{
+    width: 100%;
+}
+.photo img{
+    margin: 1px 1px;
+    height: 150px;
+    width: 175px;
+}
+.video-block a{
+    display: flex;
+}
+

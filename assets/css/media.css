@@ -1,0 +1,263 @@
+@media (max-width: 991.98px) {
+    .other-works{
+        text-align: center;
+    }
+    .nav-button ul{
+        display: none;
+    }
+	.background1 {
+        display: block;
+     }
+    .first-page{
+        height: 420px;
+    }
+    .stiry-img{
+        height: 180px;
+        width: 185px;
+        margin: 20px auto;
+    }
+    .sliders{
+        margin: auto;
+        height: 200px;
+    }
+    .slide h1{
+        margin: 40px auto 20px auto; 
+        font-size: 18px;
+     }
+    .slide p{
+        margin: 15px auto 25px auto;
+        font-size: 14px;
+    }
+    .line{
+        height: 1px;
+        width: 30px;
+     }
+    .slide {
+        height: 320px;
+     }
+    .slide a{
+        padding: 5px 6px;
+        font-size: 12px;
+    }
+    ul.slick-dots{
+        margin: -80px auto;
+    }
+    .stiry-img img{
+        margin: 50% auto;
+        height: 100px;
+        width: 105px;
+    }
+    .story-content h2{
+        margin: 10px 0 5px 0; 
+        font-size: 16px;
+    }
+    .story-content p{
+        margin: 16px 0; 
+        font-size: 14px;
+    }
+    .story-content a{
+        padding: 5px 7px;
+        font-size: 12px;
+    }
+    .story-content a:hover {
+        box-shadow: 4px 4px 20px 0px #c1bed1;
+    }
+    .story{
+        height: 330px;
+    }
+    .video{
+        height: 300px;
+    }
+    .our-team h2{
+        font-size: 14px;
+    }
+    .our-team p{
+        margin: 14px 0 0 0;
+        font-size: 14px;
+    }
+    .team-line{
+        margin: 30px auto 0 auto ;
+    }
+    .team-info{
+        width: 170px;  
+    }
+    .team-content {
+        width: 170px;
+        height: 225px;
+        padding: 0 0 50px 0;
+        margin: 20px auto;
+    }
+    .team {
+        height: 700px;
+        text-align: center;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .team-info h4{
+        margin: 7px 0 0 0;
+        font-size: 12px;
+    }
+    .team-info p{
+        margin: 5px 0 0 0;
+        font-size: 12px;
+    }
+    .dream-team p{
+        margin: 25px 0 30px 0;
+
+    }
+    .review{
+        margin: 20px 0 0 0;
+        height: 400px;       
+    }
+    .works-sliders{
+        margin: 20px auto 0 auto;
+        height: 400px;
+        width: 80%;
+    }
+    .works-slide h1{
+       font-size: 60px;
+    }
+    .works-slide p{
+        margin: 0 20px 0 20px;
+        font-size: 12px;
+    }
+    .footer{
+        margin: 30px 0 0 0;
+        height: 950px;
+    }
+    .left-block{
+        margin: 20px auto;
+    }
+    .center-block{
+        margin: 10px auto;
+    }
+    .left-block img{
+        display: none;
+    }
+    .left-block p{
+        margin: 15px 0 20px 0;
+        font-size: 12px;
+    }
+    .left-block a{
+        font-size: 12px;
+        display: inline-block;
+    }
+    .center-block h2{
+        margin: 15px 0 20px 0;
+        font-size: 18px;
+    }
+    .center-block h5{
+        margin: 25px 0 10px 0;
+        font-size: 18px;
+    }
+    .right-block-text{
+        margin: 20px 0 20px 0;
+    }
+    .right-block-text h2{
+        font-size: 15px;
+    }
+    .subscribes{
+        display: flex;
+        flex-direction: column;
+    }
+    .subscribes img{
+        margin: 25px auto;
+        height: 45px;
+        width: 70px;
+    }
+    .site-img a{
+        margin: 10px auto;
+        padding: 0 0 0 15px ;
+    }
+    .site-img img{
+        margin: 10px auto;
+    }
+    .left-block a{
+        display: block;
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    .center-block h2{
+        font-size: 12px;
+    }
+    .center-block h5{
+        margin: 25px 0 20px 0;
+        font-size: 12px;
+    }
+    .right-block-text h2{
+        font-size: 12px;
+    }
+    .subscribes img{
+        margin: 15px auto;
+    }
+    .Copyright h2{
+        padding: 0 0 0 15px ;
+        margin: 20px auto;
+        font-family: Myriad Pro, sans-serif;
+        font-size: 14px;
+        color: #e0dfe4;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .review{
+        height: 350px;
+    }
+    .other-works, .story-content, .first-page{
+        text-align: center;
+    }
+    .Zara, .NYL, .Ck, .Converse, .Levis, .Mango, .Gucci, .NIKE, .Puma, .Billabong, .happy-client, .left-block, .stiry-img, .nav-img{
+        display: none;
+    }
+    .team {
+        height: 900px;
+    }
+    .right-block-text{
+        margin: 5px 0 5px 0;
+    }
+    .right-block-subscribes input[type="text"]{
+        width: 60%;
+    }
+    .site-img a:first-child{
+        padding: 0;
+    }
+    .Copyright h2{
+        padding: 0;
+    }
+    .subscribes img{
+        margin: 10px auto 15px auto;
+        height: 39px;
+    }
+ }
+@media (max-width: 575.98px) {
+    .stiry-img{
+        text-align: center;
+    }
+    .review{
+        height: 500px;
+    }
+    .other-works{
+        text-align: center;
+    }
+    .right-block-text{
+        margin: 5px 0 5px 0;
+    }
+    .right-block-subscribes input[type="text"]{
+        width: 60%;
+    }
+    .site-img a:first-child{
+        padding: 0;
+    }
+    .Copyright h2{
+        padding: 0;
+    }
+    .Zara, .NYL, .Ck, .Converse, .Levis, .Mango, .Gucci, .NIKE, .Puma, .Billabong, .happy-client{
+        display: none;
+    }
+    .team {
+        height: 1400px;
+    }
+ }
+
+
