@@ -1,0 +1,27 @@
+{
+  "name": "V2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canis182/TestProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canis182/TestProject/issues"
+  },
+  "homepage": "https://github.com/canis182/TestProject#readme",
+  "dependencies": {
+    "node-static": "^0.7.10"
+  },
+  "engines": {
+    "node": "9.11.1"
+  }
+}
