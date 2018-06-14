@@ -1,8 +1,50 @@
-*, body, video{
+*, body, video, h4, span{
 	padding: 0;
 	margin: 0;
     box-sizing: border-box;
     position: relative;
+}
+.loader {
+    background: none repeat scroll 0 0 #ffffff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999; }
+.loader_inner {
+    background-image: url("../img/preloader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; 
+}
+.scroll{
+    height: 120px;
+    width: 70px;
+    display: block;
+    background-image: url("../img/scroll.gif");
+    transform: rotate(180deg);
+    position: fixed;
+    bottom: -170px;
+    right: 30px;
+    background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1999;
+    transition: all 0.5s;
+}
+.scroll.active{
+    bottom: 30px;
 }
 .menu{
     display: none;
@@ -35,9 +77,9 @@
     background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-image: url("../img/overlay ( don't delete ).png");
+    background-image: url("../img/overlay1.png");
     right: -285px;
-    height: 400px;
+    height: 100%;
     position: fixed;
     width: 285px;
     z-index: 1;
@@ -74,6 +116,7 @@
     padding-bottom: 6px;
 }
 .icon-menu{
+    margin: 0 0 0 300px;
     color: #fff;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
@@ -89,7 +132,7 @@
     background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-image: url("../img/overlay ( don't delete ).png");
+    background-image: url("../img/overlay2.png");
     text-align: center;
 }
 .nav-img{
@@ -115,6 +158,12 @@
 .slick-dots li button::before{
     color: #00e0d0;
     opacity: 1;
+    border: 1px solid #00e0d0;
+    border-radius: 100%
+}
+.slick-dots li.slick-active button:before{
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 .slide p{
     margin: 30px 102px 80px 102px;
@@ -178,7 +227,7 @@
     text-decoration: none;
     transition: all .5s;
 }
-.story-content a:hover {
+.story-content a:hover{
 	box-shadow: 4px 4px 20px 0px #c1bed1;
 }
 .video{
@@ -326,7 +375,7 @@
     background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-image: url("../img/overlay ( don't delete ).png");
+    background-image: url("../img/overlay1.png");
 }
 .our-team h2{
     margin: 60px 0 0 0;
@@ -375,19 +424,19 @@
     background-image: url("../img/Pet.jpg");
 }
 .team-info{
-    border: 1px solid #ffffff;
+    padding: 13px 0;
+    border: 1px inset #ffffff;
+    border-top: #000000;
     width: 220px;
-
 }
 .team-info h4{
-    margin: 5px 0 0 0;
     text-align: center;
     color: #ffffff;
     font-size: 14px;
     font-family: Myriad Pro, sans-serif;
 }
-.team-info p{
-    margin: 5px 0 0 0;
+.team-info span{
+
     text-align: center;
     color: #b2b1bb;
     font-size: 14px;
@@ -411,7 +460,7 @@
     text-decoration: none;  
 }
 .media-body p{
-    margin: 0 50px 0x 50px;
+    margin: 0 50px 0 50px;
     font-family: Myriad Pro, sans-serif;
     font-size: 14px;
     color: #5a5763;
@@ -425,6 +474,11 @@
     color: #413d4b;
     font-size: 14px;
     font-family: Myriad Pro, sans-serif;
+    transition: all .5s;
+}
+.work-button p:hover {
+    font-size: 20px;
+	text-shadow: 2px 2px 2px #c1bed1;
 }
 .work-name h2{
     margin: 70px 0 70px 0;
@@ -461,22 +515,22 @@
     background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-image: url("../img/overlay3 ( don't delete ).png");
+    background-image: url("../img/overlay3.png");
 }
 .works-sliders{
     margin: 60px auto 0 auto;
     height: 400px;
-    width: 700px;
+    width: 60%;
     text-align: center;
 }
-.works-slide h1{
-   margin: 0 auto; 
+.works-slide h2{
+   margin: 50px auto 0 auto; 
    font-family: Myriad Pro, sans-serif;
    font-size: 100px;
    color: #ffffff;
 }
 .works-slide p{
-    margin: 0 50px 0x 50px;
+    margin: 0 50px 0 50px;
     font-family: Myriad Pro, sans-serif;
     font-size: 14px;
     color: #ffffff;
@@ -487,7 +541,7 @@
     font-size: 14px;
     color: #ffffff;
  }
- .works-slide h6{
+ .works-slide span{
     margin: 0 auto 10px auto; 
     font-family: Myriad Pro, sans-serif;
     font-size: 13px;
@@ -598,7 +652,7 @@
     border-radius: 10px;
     height: 400px;
     width: 100%;
-    box-shadow: 12px 7px 13px 0px #0000008a;;
+    box-shadow: 12px 7px 13px 0px #000000;
 }
 .maps h2{
     margin: 50px auto;
@@ -641,11 +695,11 @@
     font-size: 14px;
     color: #e0dfe4;
 }
-.right-block-text{
-    margin: 85px 0 20px 0;
+.right-block{
+    margin: 60px auto;
 }
-.right-block-text h2{
-    padding: 0 15px 10px 15px ;
+.right-block h2{
+    padding: 0 15px 0 15px ;
     font-family: Myriad Pro, sans-serif;
     font-size: 15px;
     color: #e0dfe4;
@@ -673,13 +727,10 @@
     flex-direction: row;
     align-items: stretch;
 }
-.photo{
-    width: 100%;
-}
-.photo img{
-    margin: 1px 1px;
-    height: 150px;
-    width: 175px;
+.photo img, .photo2 img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .video-block a{
     display: flex;
